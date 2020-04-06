@@ -1,0 +1,39 @@
+{
+  "apiVersion": "/api/v1",
+  "elasticsearch": {
+    "host": "localhost:9200"
+  },
+  "mongo": {
+    "uri": "mongodb://localhost/admin",
+    "options": {
+      "user": "",
+      "pass": "",
+      "useNewUrlParser": true,
+      "useUnifiedTopology": true,
+      "poolSize": 5,
+      "serverSelectionTimeoutMS": 1000,
+      "socketTimeoutMS": 45000
+    }
+  },
+  "postgres": {
+    "host": "localhost",
+    "port": 5432,
+    "username": "",
+    "password": "",
+    "database": "",
+    "dialect": "postgres",
+    "operatorsAliases": "false",
+    "logging": false,
+    "pool": {
+      "max": 3,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    }
+  },
+  "redis": {
+    "host": "localhost",
+    "port": 6379,
+    "password": ""
+  }
+}

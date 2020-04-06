@@ -1,0 +1,35 @@
+[
+  {
+    "firstName": "Mallaiya",
+		"lastName": "Muthukumar",
+		"email": "mallaiyazap@gmail.com",
+		"dob": "1998-11-29",
+		"phoneNumber": "7867964673",
+		"password": "test@123!@#"
+	},
+	{
+    "firstName": "Mitchell",
+		"lastName": "Johnson",
+		"email": "mitchell.johnson@gmail.com",
+		"dob": "1980-10-10",
+		"phoneNumber": "7867964672",
+		"password": "test@123!@#"
+	},
+	{
+    "firstName": "Dale",
+		"lastName": "Steyn",
+		"email": "dale.steyn@gmail.com",
+		"dob": "1983-06-23",
+		"phoneNumber": "7867964671",
+		"password": "test@123!@#"
+	},
+	{
+    "firstName": "Shoaib",
+		"lastName": "Akthar",
+		"email": "shoaib.akthar@gmail.com",
+		"dob": "1975-09-20",
+		"phoneNumber": "7867964670",
+		"password": "test@123!@#"
+  }
+]
+

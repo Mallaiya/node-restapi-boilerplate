@@ -1,0 +1,8 @@
+{
+    "endOfLine": "lf",
+    "parser": "babel",
+    "printWidth": 140,
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2
+}

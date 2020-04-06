@@ -1,0 +1,10 @@
+const path = require('path');
+const configPath = global.env ?  `config.${global.env}.json` : 'config.development.json';
+
+module.exports = {
+  'env': 'postgres', // to get particular database config of postgres
+  'config': path.resolve('./src/configs', configPath),
+  'migrations-path': path.resolve('./src/database/postgres', 'migrations'),
+  'models-path': path.resolve('./src/database/postgres', 'models'),
+  'seeders-path': path.resolve('./src/database/postgres', 'seeders'),
+}
