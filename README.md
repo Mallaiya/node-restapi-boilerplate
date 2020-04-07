@@ -30,3 +30,7 @@ Generate necessary private and public keys with passphrase for the project using
 ### 6. Then simply start your development server
 ```npm run dev```
 
+### License & copyrights
+Copyright (c) 2020 Mallaiya M
+Licensed under the [MIT License](LICENSE)
+
