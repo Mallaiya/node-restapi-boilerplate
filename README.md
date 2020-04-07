@@ -31,6 +31,6 @@ Generate necessary private and public keys with passphrase for the project using
 ```npm run dev```
 
 ### License & copyrights
-Copyright (c) 2020 Mallaiya M
+Copyright (c) 2020 Mallaiya M\
 Licensed under the [MIT License](LICENSE)
 
