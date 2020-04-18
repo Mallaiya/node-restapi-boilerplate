@@ -1,14 +1,13 @@
 {
-  "name": "node-application-boilerplate",
+  "name": "node-restapi-boilerplate",
   "version": "1.0.0",
-  "description": "Node Application Boilerplate",
+  "description": "Node.js RestAPI Boilerplate",
   "main": "src/index.js",
   "scripts": {
     "preinstall": "npx npm-force-resolutions",
     "dev": "echo \"Info: Development Environment Started \" && NODE_ENV=development nodemon --exec babel-node -- server.js --watch .",
     "start": "echo \"Info: Production Environment Started \" && NODE_ENV=production node server.js",
     "test": "echo \"Info: Test Environment Started \" && NODE_ENV=test nodemon --exec babel-node -- server.js --watch .",
-    "debugger": "echo \"Info: Debugger mode \" && ndb index.js",
     "prebuild": "npm run clean",
     "build": "babel . --out-dir -d dist --ignore node_modules",
     "clean": "rm -rf dist",
@@ -17,17 +16,28 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mallaiya/node-application-boilerplate.git"
+    "url": "git+https://github.com/Mallaiya/node-restapi-boilerplate.git"
   },
   "keywords": [
-    "Node.js Boilerplate"
+    "Node.js Boilerplate",
+    "Node Boilerplate",
+    "RestAPI",
+    "Node Kick Starter",
+    "Boilerplate",
+    "Mallaiya",
+    "Mallaiya M",
+    "Mallaiya Muthukumar",
+    "Mallaiya Boilerplate",
+    "Mallaiya RestAPI boilerplate",
+    "Mallaiya Node.js boilerplate",
+    "Mallaiya Node boilerplate"
   ],
   "author": "Mallaiya M",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Mallaiya/node-application-boilerplate/issues"
+    "url": "https://github.com/Mallaiya/node-restapi-boilerplate.git/issues"
   },
-  "homepage": "https://github.com/Mallaiya/node-application-boilerplate#readme",
+  "homepage": "https://github.com/Mallaiya/node-restapi-boilerplate.git#readme",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
@@ -57,7 +67,6 @@
     "express": "^4.17.1",
     "express-mongo-sanitize": "^2.0.0",
     "express-rate-limit": "^5.1.1",
-    "express-session": "^1.17.0",
     "express-status-monitor": "^1.2.10",
     "glob": "^7.1.6",
     "helmet": "^3.22.0",
