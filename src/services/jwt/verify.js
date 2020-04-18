@@ -5,6 +5,7 @@ const JWT = require('jsonwebtoken');
 const FS = require('fs');
 const PATH = require('path');
 
+// eslint-disable-next-line security/detect-non-literal-fs-filename
 const PUBLIC_KEY = FS.readFileSync(PATH.resolve(__dirname, '../../keys/jwt/public.pem'), 'utf8');
 
 class JWTVerify {

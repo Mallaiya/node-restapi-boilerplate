@@ -5,7 +5,7 @@
 /**
  * Custom Imports
  */
-const SEQUELIZE_MODEL = require('../../database/postgres/models');
+const SEQUELIZE_MODEL = require('../../databases/postgres/models');
 
 const { BadRequestError, DatabaseError } = require('../../utils/error');
 

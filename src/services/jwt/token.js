@@ -12,7 +12,7 @@ const LODASH = require('lodash');
  */
 const JWT_SIGN = require('./sign');
 const JWT_VERIFY = require('./verify');
-const SEQUELIZE_MODEL = require('../../database/postgres/models');
+const SEQUELIZE_MODEL = require('../../databases/postgres/models');
 
 const { AuthorizationError } = require('../../utils/error');
 

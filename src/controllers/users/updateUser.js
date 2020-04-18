@@ -5,7 +5,7 @@
 /**
  * Custom Imports
  */
-const SEQUELIZE_MODEL = require('../../database/postgres/models');
+const SEQUELIZE_MODEL = require('../../databases/postgres/models');
 const { UPDATE_USER_VALIDATOR } = require('../../utils/validator/users');
 
 const { DatabaseError, ValidatorError } = require('../../utils/error');

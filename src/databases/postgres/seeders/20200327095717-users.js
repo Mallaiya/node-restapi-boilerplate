@@ -6,6 +6,7 @@ module.exports = {
   up: async () => {
     // Hash Password before seeding all data
     for (let index = 0; index < USER_MOCK_DATA.length; index++) {
+      // eslint-disable-next-line security/detect-object-injection
       USER_MOCK_DATA[index].password = await BCRYPT_HASH.generateHash(USER_MOCK_DATA[index].password);
     }
     return MODELS.users.bulkCreate(USER_MOCK_DATA);

@@ -5,7 +5,7 @@
 /**
  * Custom Imports
  */
-const SEQUELIZE_MODEL = require('../../database/postgres/models');
+const SEQUELIZE_MODEL = require('../../databases/postgres/models');
 const { BCRYPT_COMPARE } = require('../../services/bcrypt');
 const { JWT_TOKEN } = require('../../services/jwt');
 

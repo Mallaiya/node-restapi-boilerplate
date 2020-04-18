@@ -10,7 +10,7 @@ const { getClientIp } = require('request-ip');
 /**
  * Custom Imports
  */
-const MONGOOSE_MODEL = require('../database/mongo/model');
+const MONGOOSE_MODEL = require('../databases/mongo/model');
 const { JWT_DECODE } = require('../services/jwt');
 const { BadRequestError } = require('../utils/error');
 

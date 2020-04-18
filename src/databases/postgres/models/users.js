@@ -16,15 +16,15 @@ module.exports = (sequelize, DataTypes) => {
       dob: DataTypes.DATEONLY,
       phoneNumber: DataTypes.BIGINT,
       password: DataTypes.STRING
+    },
+    {
+      hooks: {
+        async beforeValidate(user) {
+          // eslint-disable-next-line no-param-reassign
+          user.password = await BCRYPT_HASH.generateHash(user.password);
+        }
+      }
     }
-    // {
-    //   hooks: {
-    //     async beforeValidate(user) {
-    //       // eslint-disable-next-line no-param-reassign
-    //       user.password = await BCRYPT_HASH.generateHash(user.password);
-    //     }
-    //   }
-    // }
   );
   return User;
 };

@@ -8,7 +8,7 @@
  * Use close for the automatic driver connection close
  */
 const MONGOOSE_DRIVER = require('./mongoose.driver');
-const SEQUELIZE_DRIVER = require('./mongoose.driver');
+const SEQUELIZE_DRIVER = require('./sequelize.driver');
 
 module.exports = {
   open: { MONGOOSE_DRIVER },

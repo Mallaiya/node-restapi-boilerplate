@@ -12,6 +12,11 @@ const SEQUELIZE_DRIVER = require('../../../drivers/sequelize.driver');
 
 const sequelize = SEQUELIZE_DRIVER.createConnection();
 
+sequelize.authenticate().catch(error => {
+  global.logger.error('Sequelize Connection error');
+  global.logger.error(error);
+});
+
 const BASENAME = PATH.basename(__filename);
 
 const DB = {};
