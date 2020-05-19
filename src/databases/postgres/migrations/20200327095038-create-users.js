@@ -33,12 +33,12 @@ module.exports = {
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,
-        defaulValue: new Date()
+        defaultValue: new Date()
       },
       updatedAt: {
         allowNull: false,
         type: Sequelize.DATE,
-        defaulValue: new Date()
+        defaultValue: new Date()
       }
     });
   },
